@@ -232,7 +232,8 @@ if [ -f `which powerline-daemon` ];then
     POWERLINE_BASH_CONTINUATION=1
     POWERLINE_BASH_SELECT=1
     #. /usr/share/powerline/bindings/bash/powerline.sh
-    . ~/.local/lib/python3.8/site-packages/powerline/bindings/bash/powerline.sh
+    # . ~/.local/lib/python3.8/site-packages/powerline/bindings/bash/powerline.sh
+    . /usr/share/powerline/bindings/bash/powerline.sh
 fi
 export TERM="screen-256color"
 
