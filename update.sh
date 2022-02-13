@@ -8,4 +8,4 @@
 
 cp ~/.vimrc  ./
 cp ~/.bash*  ./
-cp ~/.ssh/config ./.ssh/
+#cp ~/.ssh/config ./.ssh/
